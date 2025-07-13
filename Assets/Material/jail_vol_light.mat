@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: jail_vol_light
+  m_Shader: {fileID: 4800000, guid: 93a4a3661414db940a78033230a7fcb7, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: ce9187f6287437547b45f7c8d916cd44, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _FadeOutDistNear
+      second: 15
+    - first:
+        name: _FadeOutDistFar
+      second: 10000
+    - first:
+        name: _Multiplier
+      second: 0.3
+    - first:
+        name: _ContractionAmount
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.588, g: 0.588, b: 0.588, a: 1}
